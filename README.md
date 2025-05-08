@@ -57,9 +57,9 @@ Nebo otevři `src/ElectricFieldVis.sln` ve Visual Studiu a spusť `F5`.
 
 ## 📸 Ukázky
 
-| Sondy a grafy | Editor nábojů | Dynamické změny |
+| Sondy a grafy | Dynamické změny | Editor nábojů|
 |---------------|----------------|------------------|
-| ![1](screenshots/image_1.JPG) | ![2](screenshots/image_2.JPG) | 
+| ![1](screenshots/image_1.JPG) | ![2](screenshots/image_2.JPG) | ![3](screenshots/image_3.JPG | 
 
 ---
 
