@@ -1,0 +1,23 @@
+[
+  {
+    "position": {
+      "X": -1,
+      "Y": 0
+    },
+    "magnitute": 1
+  },
+  {
+    "position": {
+      "X": 1,
+      "Y": 0
+    },
+    "magnitute": -2
+  },
+  {
+    "position": {
+      "X": 0,
+      "Y": 1
+    },
+    "magnitute": 0.5
+  }
+]
