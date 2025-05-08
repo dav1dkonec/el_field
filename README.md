@@ -1,19 +1,19 @@
 # ElectricFieldVis
 
-**Semestrální projekt KIV/APG 2024/2025**  
-Aplikace vizualizuje elektrostatické pole s možností přidávání nábojů, sond a sledování intenzity pole v čase. Projekt obsahuje vícero scénářů, včetně simulace dynamicky se měnících nábojů.
+**Semester Project for KIV/APG 2024/2025**  
+The application visualizes an electrostatic field with the ability to add charges, probes, and monitor field strength over time. The project includes multiple scenarios, including dynamic charge simulations where the charge magnitude changes over time.
 
 ---
 
-## 📁 Struktura projektu
+## 📁 Project Structure
 
 ```
-├── src/           # Zdrojové kódy (.cs, .csproj, .sln)
-├── bin/           # Build výstupy (.exe, .dll, atd.)
-├── doc/           # Dokumentace (PDF)
-├── Build.cmd      # Skript pro sestavení projektu
-├── Run.cmd        # Skript pro spuštění aplikace
-├── screenshots/   # Ukázkové obrázky
+├── src/           # Source code (.cs, .csproj, .sln)
+├── bin/           # Build outputs (.exe, .dll, etc.)
+├── doc/           # Documentation (PDF)
+├── Build.cmd      # Build script
+├── Run.cmd        # Run script
+├── screenshots/   # Example images
 ├── README.md
 ├── .gitignore
 └── LICENSE
@@ -21,17 +21,17 @@ Aplikace vizualizuje elektrostatické pole s možností přidávání nábojů, 
 
 ---
 
-## 🔍 Funkce
+## 🔍 Features
 
-- Vizualizace elektrostatického pole pomocí vektorového pole
-- Přidávání a editace kladných i záporných bodových nábojů
-- Sondy zobrazující intenzitu pole v místě a čase (graf)
-- Interaktivní scénáře – např. dva náboje s periodicky se měnící hodnotou
-- Ukládání a načítání scén
+- Visualization of the electrostatic field using vector arrows
+- Adding and editing positive and negative point charges
+- Probes that show field strength at their location over time (graph)
+- Interactive scenarios – e.g., dynamically changing charge magnitudes
+- Saving and loading custom scenes
 
 ---
 
-## 🛠 Technologie
+## 🛠 Technologies
 
 - C# (.NET Framework 4.7.2)
 - Windows Forms (WinForms)
@@ -39,36 +39,34 @@ Aplikace vizualizuje elektrostatické pole s možností přidávání nábojů, 
 
 ---
 
-## ▶️ Spuštění
+## ▶️ Running the Project
 
-### 🧱 Build
+Open the solution file `src/ElectricFieldVis.sln` in Visual Studio and press `F5` to run.
+
+Or run from terminal:
 ```bash
 Build.cmd
-```
-
-### 🧪 Spuštění
-```bash
 Run.cmd
 ```
 
-Nebo otevři `src/ElectricFieldVis.sln` ve Visual Studiu a spusť `F5`.
+---
+
+## 📸 Screenshots
+
+| Field with probes and charges |
+|-------------------------------|
+| ![Screenshot 1](screenshots/field-1.jpg) |
+| ![Screenshot 2](screenshots/field-2.jpg) |
+| ![Screenshot 3](screenshots/field-3.jpg) |
 
 ---
 
-## 📸 Ukázky
+## 📄 Documentation
 
-| Sondy a grafy | Dynamické změny | Editor nábojů|
-|---------------|----------------|------------------|
-| ![1](screenshots/image_1.JPG) | ![2](screenshots/image_2.JPG) | ![3](screenshots/image_3.JPG) | 
+For detailed information, see `doc/Dokumentace.pdf`.
 
 ---
 
-## 📄 Dokumentace
+## 📄 License
 
-Více informací v `doc/upg_dog.pdf`.
-
----
-
-## 📄 Licence
-
-Projekt je licencován pod MIT licencí – viz soubor [LICENSE](LICENSE).
+This project is licensed under the MIT License – see [LICENSE](LICENSE).
