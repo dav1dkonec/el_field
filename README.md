@@ -55,9 +55,9 @@ Run.cmd
 
 | Field with probes and charges |
 |-------------------------------|
-| ![Screenshot 1](screenshots/field-1.jpg) |
-| ![Screenshot 2](screenshots/field-2.jpg) |
-| ![Screenshot 3](screenshots/field-3.jpg) |
+| ![Screenshot 1](screenshots/image_1.JPG) |
+| ![Screenshot 2](screenshots/image_2.JPG) |
+| ![Screenshot 3](screenshots/image_3.JPG) |
 
 ---
 
