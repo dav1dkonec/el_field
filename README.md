@@ -63,7 +63,7 @@ Run.cmd
 
 ## 📄 Documentation
 
-For detailed information, see `doc/Dokumentace.pdf`.
+For detailed information, see `doc/Dokumentace.pdf` (written in czech language).
 
 ---
 
